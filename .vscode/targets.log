@@ -1,0 +1,369 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Aug 28 12:43:57 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VUNIT_SIMULATOR = modelsim
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/labarqcomp/ProgramacaoParaAlto
+# makefile
+SHELL = /bin/sh
+# environment
+SNAP_DATA = /var/snap/code/105
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:53026
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+QSYS_ROOTDIR = /home/labarqcomp/intelFPGA/18.1/quartus/sopc_builder/bin
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+USERNAME = labarqcomp
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+_ = /snap/code/105/usr/share/code/code
+# environment
+MANAGERPID = 1642
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/labarqcomp
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/105/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/labarqcomp/.local/bin:/home/labarqcomp/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/labarqcomp/intelFPGA/18.1/quartus/bin:/home/labarqcomp/intelFPGA/18.1/modelsim_ase/linuxaloem/:/home/labarqcomp/intelFPGA/18.1/modelsim_ase/lib32:/home/labarqcomp/intelFPGA/18.1//embedded/:/home/labarqcomp/intelFPGA/18.1//embedded/host_tools/altera/preloadergen/:/home/labarqcomp/intelFPGA/18.1//embedded/:/home/labarqcomp/intelFPGA/18.1//embedded/host_tools/altera/preloadergen/:/home/labarqcomp/Downloads/gcc-linaro-7.4.1-2019.02-x86_64_arm-linux-gnueabihf/bin
+# environment
+LM_LICENSE_FILE = 27001@52.201.227.98
+# makefile (from 'Makefile', line 4)
+FILE_OUT = teste.out
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/labarqcomp-NUC8i5BEK:@/tmp/.ICE-unix/1861,unix/labarqcomp-NUC8i5BEK:/tmp/.ICE-unix/1861
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/labarqcomp/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/105
+# environment
+SNAP_VERSION = e4503b30
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+DISABLE_WAYLAND = 1
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = e684b720e91d4059a77a50ec9e657b21
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/105/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 4284
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/labarqcomp/ProgramacaoParaAlto
+# default
+.LOADED := 
+# environment
+SOCEDS_HWLIB = /home/labarqcomp/intelFPGA/18.1//embedded/ip/altera/hps/altera_hps/hwlib/
+# environment
+SSH_AGENT_PID = 1824
+# environment
+SOCEDS_DEST_ROOT = /home/labarqcomp/intelFPGA/18.1//embedded
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/labarqcomp
+# environment
+LD_LIBRARY_PATH = :/home/labarqcomp/intelFPGA/18.1/modelsim_ase/lib32
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/labarqcomp/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+LOGNAME = labarqcomp
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = 7jxz_Yx9vTd59IGsa7QVrgzkWsqDbgQe6n7nY_xzR2T6eY8ON5lk
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_USER_COMMON = /home/labarqcomp/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+ALTERAPATH = /home/labarqcomp/intelFPGA/18.1/
+# environment
+MAKELEVEL := 0
+# environment
+SNAP_REAL_HOME = /home/labarqcomp
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SNAP_USER_DATA = /home/labarqcomp/snap/code/105
+# environment
+SHLVL = 0
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = labarqcomp
+# environment
+SNAP_REVISION = 105
+# makefile (from 'Makefile', line 2)
+.DEFAULT_GOAL := all
+# environment
+VUNIT_MODELSIM_PATH = /home/labarqcomp/intelFPGA/18.1/modelsim_ase/linuxaloem/
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = pt_BR:pt:en
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-db3ccb56-1.70.2-main.sock
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+GCC_Linaro = /home/labarqcomp/Downloads/gcc-linaro-7.4.1-2019.02-x86_64_arm-linux-gnueabihf/bin
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = 7jxz_Yx9vTd59IGsa7QVrgzkWsqDbgQe6n7nY_xzR2T6eY8ON5lk
+# automatic
+<F = $(notdir $<)
+# environment
+SNAP_NAME = code
+# environment
+LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+ 
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+VSCODE_PID = 4331
+# variable set hash-table stats:
+# Load=126/1024=12%, Rehash=0, Collisions=20/157=13%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2052, inode 3809393): 6 files, no impossibilities.
+
+# 6 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: build run
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+# Not a target:
+teste.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-25 11:15:20.264875414
+#  File has been updated.
+#  Successfully updated.
+
+build:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/13=8%
+#  recipe to execute (from 'Makefile', line 8):
+	g++ $(F) -o $(FILE_OUT)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run: teste.out
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 11):
+	./$(FILE_OUT)
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/22=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 13 / storage = 104 B / avg = 8 B
+# current buf: size = 8162 B / used = 104 B / count = 13 / avg = 8 B
+
+# strcache performance: lookups = 25 / hit rate = 48%
+# hash-table stats:
+# Load=13/8192=0%, Rehash=0, Collisions=1/25=4%
+# Finished Make data base on Sun Aug 28 12:43:57 2022
+
+ 
