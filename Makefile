@@ -8,6 +8,7 @@ build:
 	g++ $(F) -o $(FILE_OUT)
 
 run: $(FILE_OUT)
+	clear
 	./$(FILE_OUT)
 
 
