@@ -30,8 +30,7 @@ int main(){
         }
     }
 
-    high_resolution_clock::time_point tOp1_2 = high_resolution_clock::now();
-    duration<double, std::milli> tempoOp1 = tOp1_2 - tOp1_1;
+    duration<double, std::milli> tempoOp1 = high_resolution_clock::now() - tOp1_1;
 
     high_resolution_clock::time_point tOp2_1 = high_resolution_clock::now();
 
@@ -40,7 +39,7 @@ int main(){
 */
     int maxAtual2 = lista[0];
 
-    for (int j {0}; j < lenLista; j++)
+    for (int j {1}; j < lenLista; j++)
     {   
         if ( lista[j] > maxAtual2) 
         {
@@ -48,9 +47,7 @@ int main(){
         }
     }
 
-
-    high_resolution_clock::time_point tOp2_2 = high_resolution_clock::now();
-    duration<double, std::milli> tempoOp2 = tOp2_2-tOp2_1;
+    duration<double, std::milli> tempoOp2 = high_resolution_clock::now() - tOp2_1;
 
     cout << "Tempo da operação 1:" << tempoOp1.count() << "ms" << endl;
     cout << "Tempo da operação 2:" << tempoOp2.count() << "ms" << endl;

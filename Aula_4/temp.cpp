@@ -1,22 +1,19 @@
 #include <iostream>
+#include <string>
 
 using std::cout;
 using std::cin;
 using std::endl;
+using std::string;
 
 int main(){
-    char opt {};
-    do
-    {
-        double width {}, height {};
-        cout << "Digite a largura e altura separadas por espaço: ";
-        cin >> width >> height;
-        cout << "A área é: " << width * height << endl;
+    
+    string s1 {"Insper"};
+    s1 += " Quatá, 200";
 
-        cout << "Calcular novamente? (S/N): ";
-        cin >> opt;
-        cout << endl << opt << endl;
+    for (char c: s1)
+        cout << c << endl;
+    
 
-    } while (opt == 'S' || opt == 's');
     return 0;
 }
