@@ -1,40 +1,36 @@
 #include <iostream>
 #include <chrono>
+#include <vector>
 
 using std::cout;
 using std::cin;
 using std::endl;
+using std::vector;
+using std::swap;
 
-bool TestaPrimo(int num)
-{
-    for (int i {2}; i<num/2; i++){
-        if ( num%i == 0 ) {
-            return false;
+void bubbleSort(vector <int> &A, int n){
+
+
+    for ( int i=0; i <= n-2; i++ ){
+        for ( int j=0; j <= n-2; j++ ){
+            if (A.at(j) > A.at(j+1) ){
+                swap(A.at(j), A.at(j+1));
+            }
         }
     }
-    return true;
+    for (int i=0; i<A.size(); i++){
+        cout << "A[" << i << "] = " << A[i] << endl;
+    }
+    cout << endl;
+
 }
 
 
 int main() 
-{   
-    using namespace std::chrono;
+{
+    vector <int> LISTA {4, 3, 1, 2, 0, 10, 8, 5, 9, 6, 7};
 
-    high_resolution_clock::time_point tInicial = high_resolution_clock::now();
+    bubbleSort(LISTA, LISTA.size());
 
-    int count {0};
-    for ( int i {1000}; i<= 4000; i++){
-        if (TestaPrimo(i)){
-            ++count;
-        }
-    }
-
-    duration<double, std::milli> tempoOp = high_resolution_clock::now() - tInicial;
-
-
-    cout << "Existem " << count << " números primos entre 1000 e 4000" << endl;
-    cout << "Tempo de operação: " << tempoOp.count() << " ms" << endl;
-    
-    cout << endl;
     return 0;
 }

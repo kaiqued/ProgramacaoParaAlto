@@ -23,6 +23,7 @@ int main()
     // Adicione os números 1 e 2 no vec1 e 11 e 12 no vec2
     vec1.push_back(1);
     vec1.push_back(2);
+    
     vec2.push_back(11);
     vec2.push_back(12);
 

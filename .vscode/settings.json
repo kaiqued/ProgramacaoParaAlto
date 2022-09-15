@@ -1,7 +1,25 @@
 {
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/labarqcomp/ProgramacaoParaAlto",
+            "binaryPath": "/home/labarqcomp/ProgramacaoParaAlto/teste.out",
+            "binaryArgs": []
+        }
+    ],
+    "makefile.configurations": [
+        {
+            "name": "Default",
+            "makeArgs": ["F=${fileBasename}/temp.cpp"]
+        },
+        {
+            "name": "Print make version",
+            "makeArgs": ["--version"]
+        }
+    ],
     "files.associations": {
-        "iostream": "cpp",
-        "chrono": "cpp",
-        "ostream": "cpp"
+        "string": "cpp",
+        "fstream": "cpp",
+        "ostream": "cpp",
+        "iostream": "cpp"
     }
 }

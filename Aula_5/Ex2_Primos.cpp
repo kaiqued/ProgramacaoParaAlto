@@ -7,7 +7,9 @@ using std::endl;
 
 bool TestaPrimo(int num)
 {
-    for (int i {2}; i<num; i++){
+    if ( num%2 == 0){ return false; }
+
+    for (int i {3}; i<num/2; i+=2){
         if ( num%i == 0 ) {
             return false;
         }
@@ -23,12 +25,12 @@ int main()
     high_resolution_clock::time_point tInicial = high_resolution_clock::now();
 
     int count {0};
-    for ( int i {1000}; i<= 4000; i++){
+    for ( int i {1000}; i<= 20000; i++){
         if (TestaPrimo(i)){
-            count++;
+            ++count;
         }
     }
-    
+
     duration<double, std::milli> tempoOp = high_resolution_clock::now() - tInicial;
 
 
