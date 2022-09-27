@@ -67,7 +67,6 @@ int main()
     estado[2].prox = nullptr;
 
 
-    PrintMunicipios(estado);
     
 
     return 0;
