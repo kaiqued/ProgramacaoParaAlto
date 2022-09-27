@@ -24,6 +24,6 @@ int MDC (int x, int y){
 
 int main()
 {
-    cout << MDC(1000, 20) << endl;
+    cout << MDC(13, 13*13) << endl;
     return 0;
 }
