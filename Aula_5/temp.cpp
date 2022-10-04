@@ -18,6 +18,7 @@ void bubbleSort(vector <int> &A, int n){
             }
         }
     }
+    
     for (int i=0; i<A.size(); i++){
         cout << "A[" << i << "] = " << A[i] << endl;
     }
