@@ -12,7 +12,7 @@ int main()
     
     for (int i {0}; i<10; i++)
     {
-        cout << rand()%10 << ' ';
+        cout << (rand()%1000)/1000.0 << ' ';
     }
 
     cout << endl;

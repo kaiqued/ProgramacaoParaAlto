@@ -1,7 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/labarqcomp/ProgramacaoParaAlto'
-g++  -o teste.out
- 
-./teste.out
-make: Leaving directory '/home/labarqcomp/ProgramacaoParaAlto'
- 

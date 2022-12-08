@@ -29,8 +29,9 @@ double MeuSino(double x)
 
 int main()
 {
-	std::cout << "MeuSino(0.7) = " << MeuSino(0.7) << std::endl;
-	std::cout << "my_sinr(0.7) = " << my_sinr(0.7, 0) << std::endl;
-	std::cout << "    sin(0.7) = " << std::sin(0.7) << std::endl;
+	double number = 3.1415926535897;
+	std::cout << "MeuSino(" << number << ") = " << MeuSino(number) << std::endl;
+	std::cout << "my_sinr(" << number << ") = " << my_sinr(number, 0) << std::endl;
+	std::cout << "    sin(" << number << ") = " << std::sin(number) << std::endl;
 	return 0;
 }
